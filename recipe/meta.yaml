@@ -25,6 +25,7 @@ requirements:
     - setuptools {{ setuptools }}
   host:
     - python {{ python }}
+    - setuptools {{ setuptools }}
   run:
     - python {{ python }}
     - six {{ six }}
