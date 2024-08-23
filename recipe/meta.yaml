@@ -22,6 +22,7 @@ requirements:
     - bazel {{ bazel }}
     - cmake {{ cmake }}
     - make
+    - setuptools {{ setuptools }}
   host:
     - python {{ python }}
   run:
